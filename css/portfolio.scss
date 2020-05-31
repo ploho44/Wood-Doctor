@@ -1,0 +1,527 @@
+$color_green: #456c57;
+$color_gray: #cdcdcd;
+$color_fonts: #4a4a4a;
+$color_bgray: #60606e;
+$font_bold: 'Montserrat', sans-serif;
+
+
+
+.main_content {
+    .center {
+        .clear {
+            clear: both;
+        }
+        header {
+            position: relative;
+            margin-bottom: 100px;
+            overflow: hidden;
+            .head {
+                margin-top: 10px;
+                margin-bottom: 40px;
+                color: $color_bgray;
+                width: 458px;
+                height: 14px;
+                font-family: $font_bold;
+                font-size: 26px;
+                line-height: 48px;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+            .icon {
+                width: 100px;
+            }
+            .tel {
+                font-family: $font_bold;
+                font-size: 18px;
+                color: $color_bgray;
+                font-weight: bold;
+            }
+            .menu {
+                float: right;
+                li {
+                    position: relative;
+                    float: left;
+                    padding-left: 20px;
+                    a {
+                        text-decoration: none;
+                        font-family: $font_bold; 
+                        color: $color_bgray;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                    }
+                    a:hover {
+                        text-decoration: overline;
+                        color: $color_green;
+                    }
+                }
+            }
+            .logo {
+                overflow: hidden;
+                margin-top: 160px;
+                margin-left: 50px;
+                .gray_log {
+                    float: left;
+                    width: 55px;
+                    height: 55px;
+                    background: #60606e;
+                }
+                .green_log {
+                    float:right;
+                    width: 55px;
+                    height: 55px;
+                    background: #456c57;
+                }
+                width: 110px;
+                height: 55px;
+            }
+            .logo_inf {
+                a {
+                    text-decoration: none;
+                }
+                text-align: center;
+                position: relative;
+                bottom: 20px;
+                .logo {
+                    margin: auto;
+                    width: 600px;
+                    height: 80px;
+                    font-family: $font_bold;
+                    font-size: 40px;
+                    font-weight: 700;
+                    line-height: 1.5;
+                    text-transform: uppercase;
+                    color: #60606e;
+                    border: 10px solid #60606e;
+                    margin-bottom: 10px;
+                }
+                .min_logo {
+                    margin: auto;
+                    width: 120px;
+                    background: #456c57;
+                    color: white;
+                    font-size: 18px;
+                }
+                .inf {
+                    padding: 5px 0;
+                    margin: auto;
+                    width: 250px;
+                    color: white;
+                    background: $color_green;
+                    text-transform: uppercase;
+                    margin-top: 25px;
+                    font-size: 24px;
+                    font-weight: 400;
+                    font-family: $font_bold;
+                }
+            }
+        }
+        main {
+            margin-top: 80px;
+            .category {
+                position: relative;
+                height: 35px;
+                width: 200px;
+                font-family: $font_bold;
+                font-size: 30px;
+                line-height: 48px;
+                font-weight: 700;
+                text-transform: uppercase;
+                color: #60606e;
+            }
+            h3 {
+                float: right;
+                border-bottom: 5px solid $color_green;
+                color: $color_bgray;
+                font-size: 30px;
+                font-weight: bold;
+                font-family: $font_bold;
+            }
+            ul {
+                width: 200px;
+                margin-top: 80px;
+                float: left;
+                button {
+                    margin-bottom: 20px;
+                    background: none;
+                    border: none;
+                    padding: 5px;
+                    position: relative;
+                    text-decoration: none;
+                    width: 170px;
+                    font-family: $font_bold;
+                    font-size: 14px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    color: #60606e;
+                }
+                .room {
+                    color: white;
+                    font-size: 15px;
+                    right: 10px;
+                    background: $color_green;
+                }
+            }
+            .content {
+                width: 800px;
+                float: right;
+                height: 1200px;
+                position: relative;
+                .foto{
+                    width: 500px;
+                    height: 500px;
+                    opacity: 0;
+                    position: absolute;
+                    right: 50px;
+                    animation:anim 1s;
+                    animation-duration: 1s;
+                }
+                .fotorama {
+                    border-top: 5px solid $color_green;
+                    margin-top: 100px;
+                    float: right;
+                }
+                #room {
+                    opacity: 100;
+                    z-index: 1;
+                }
+                @keyframes anim {
+                    from {right: -90%;}
+                    to {right: 50px;}
+                }
+            }
+        }
+        .communication {
+            position: relative;
+            right: 83px;
+            margin-top: 250px;
+            width: 1308px;
+            height: 330px;
+            background: $color_green;
+            h2 {
+                padding: 50px 0 0 50px;
+                width: 787px;
+                font-family: $font_bold;
+                font-size: 30px;
+                line-height: 48px;
+                font-weight: 700;
+                text-transform: uppercase;
+                color: #ffffff;
+            }
+            .politika {
+                padding: 10px;
+                color: white;
+                text-decoration: none;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+            button {
+                border: none;
+                margin-left: 50px;
+                margin-top: 20px;
+                color: $color_green;
+                font-family: $font_bold;
+                text-transform: uppercase;
+                font-weight: 700;
+                width: 165px;
+                height: 49px;
+                background: #ffffff;
+                a {
+                    display: inline-block;
+                    width: 100%;
+                    line-height: 3.5;
+                    height: 100%;
+                    text-decoration: none;
+                    color: $color_green;
+                }
+            }
+            button:hover {
+                box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+            }
+            form {
+                box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+                float: right;
+                width: 456px;
+                height: 210px;
+                background: #ffffff;
+                margin-top: -130px;
+                margin-right: 60px;
+                h3 {
+                    padding: 10px;
+                    font-family: $font_bold;
+                    font-size: 20px;
+                    line-height: 36px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    color: #60606e;
+                }
+                p {
+                    padding: 10px;
+                    padding-top: 0;
+                    font-size: 16px;
+                }
+                input {
+                    width: 250px;
+                    margin: 10px;
+                    position: relative;
+                    bottom: 25px;
+                }
+                .send {
+                    width: 130px;
+                    height: 50px;
+                    float: right;
+                    background: $color_green;
+                    font-family: $font_bold;
+                    text-transform: uppercase;
+                    color: #ffffff;
+                    border: none;
+                    bottom: 60px;
+                    right: 25px;
+                }
+                .send:hover {
+                    box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+                }
+            }
+        }
+        footer {
+            margin: auto;
+            height: 150px;
+            overflow: hidden;
+            .menu {
+                margin: 10px;
+                li {
+                    float: left;
+                    padding: 10px;
+                    a {
+                        position: relative;
+                        line-height: 48px;
+                        font-weight: 400;
+                        text-transform: uppercase;
+                        text-decoration: none;
+                        color: $color_fonts;
+                    }
+                    a:after {
+                        content: "";
+                        width: 4px;
+                        height: 2px;
+                        background: $color_fonts;
+                        position: absolute;
+                        top: 9px;
+                        right: -12px;
+                    }
+                    a:hover {
+                        color: $color_green;
+                        text-decoration: underline;
+                    }
+                    .last:after {
+                        display: none;
+                    }
+                }
+            }
+            p {
+                margin: 20px 30px;
+                text-transform: uppercase;
+                float: right;
+            }
+            .social {
+                margin: 0 30px;
+                float: right;   
+                li {
+                    float: left;
+                    padding: 0 5px;
+                    img {
+                        width: 25px
+                    }
+                    a:hover {
+                        background: $color_green;
+                    }
+                    .last {
+                        img {
+                            position: relative;
+                            top: 5px;
+                        }
+                        position: relative;
+                        bottom: 8px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.modalwin {
+    .clear {
+        clear: both;
+    }
+    width: 1000px;
+    background: white;
+    top: 10%; 
+    right: 0;
+    left: 0;
+    font-size: 16px; 
+    margin: 0 auto;
+    z-index:2; 
+    display: none;  
+    position: absolute; 
+    padding: 15px;
+    border: 5px solid $color_green;
+    h2 {
+        text-align: center;
+        color: $color_bgray;
+        font-family: $font_bold;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    p {
+        text-align: justify;
+        padding: 0 10px;
+        line-height: 1.5;
+    }
+    form {
+        h3 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            font-family: $font_bold;
+            color: $color_bgray;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .fio, .phone, .adress, .email, .height, .lift {
+            height: 50px;
+        }
+        .data, .info, .type, .design, .redevelopment, .mono, .sant, .floor, .drywall, .heating, .door_meg, .warming, .kond {
+            height: 100px;
+        }
+        .dem, .electro, .alignment_wall, .alignment_ceiling, .windows, .gidro, .sound {
+            height: 150px;
+        }
+        .radiator{
+            height: 180px;
+        }
+        .design, .area, .wall, .gas, .door, .warm_floor, .total_budget, .works_budget, .black_works_budget, .white_works_budget, .furniture_budget  {
+            height: 70px;
+        }
+        label {
+            float: left;
+            display: block;
+            width: 20%;
+            height: 100%;
+            padding: 5px;
+            font-weight: bold;
+            border: 1px solid $color_green;
+        }
+        .lab {
+            &:hover {
+                color: white;
+                background: $color_green;
+            }
+            cursor: pointer;
+        }
+        .point, .point_right {
+            width: 50%;
+            float: left;
+            position: relative;
+            left: 35px;
+            input[type=checkbox] {
+                display: none;
+            }
+            label {
+                width: 40%;
+            }
+            label::after {
+                content: "";
+                position: absolute;
+                left: 190px;
+                background: white;
+                width: 36px;
+                height: 36px;
+                top: 0;
+                border: 1px solid $color_green;
+            }
+            input[type=checkbox]:checked + label:after, input[type=checkbox]:hover + label:after{
+                content: "\2713";
+                width: 36px;
+                text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+                font-size: 15px;
+                color: #f3f3f3;
+                text-align: center;
+                line-height: 30px;
+                background: $color_green;
+            }
+            input[type=number] {
+                height: 36px;
+                position: relative;
+                left: 33px;
+                border: 1px solid $color_green;
+                &::placeholder {
+                    padding: 5px;
+                }
+            }
+        }
+        input[type=submit] {
+            color: white;
+            background: $color_green;
+            height: 36px;
+            border: 1px solid $color_green;
+            width: 150px;
+            margin-top: 20px;
+            margin-left: (960px / 2) - 75px;
+            &:hover {
+                box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+            }
+        }
+        textarea {
+            float: right;
+            height: 100%;
+            width: 80%;
+            border: 1px solid $color_green;
+            resize: none;
+            &::placeholder {
+                padding: 0 5px;
+            }
+            &:focus {
+                outline: none;
+            }
+        }
+        .questions {
+            width: 100%;
+            height: 100px;
+        }
+    } 
+}
+.modalwin_politika {
+    width: 1000px;
+    background: white;
+    top: 10%; 
+    right: 0;
+    left: 0;
+    font-size: 16px; 
+    margin: 0 auto;
+    z-index:2; 
+    display: none;  
+    position: absolute; 
+    padding: 15px;
+    border: 5px solid $color_green;
+    h2 {
+        font-weight: bold;
+        font-family: $font_bold;
+        text-align: center;
+        margin: 10px 0;
+    }
+    p {
+        text-align: justify;
+        padding: 10px 10px;
+    }
+    ul {
+        margin-left: 50px;
+        margin-bottom: 10px;
+    }
+    h3 {
+        margin: 10px 0;
+        font-weight: bold;
+        font-family: $font_bold;
+        font-size: 20px;
+        text-align: center;
+    }
+}

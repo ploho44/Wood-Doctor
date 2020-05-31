@@ -1,0 +1,184 @@
+  .modalwin {
+    width: 1000px;
+    background: white;
+    top: 10%;
+    right: 0;
+    left: 0;
+    font-size: 16px;
+    margin: 0 auto;
+    z-index: 2;
+    position: absolute;
+    padding: 15px;
+    border: 5px solid #456c57;
+  }
+  
+    .modalwin h2 {
+    text-align: center;
+    color: #60606e;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+    .modalwin p {
+    text-align: justify;
+    padding: 0 10px;
+    line-height: 1.5;
+  }
+  
+    .modalwin form h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    color: #60606e;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+    .modalwin form .fio,   .modalwin form .phone,   .modalwin form .adress,   .modalwin form .email,   .modalwin form .height,   .modalwin form .lift {
+    height: 50px;
+  }
+  
+    .modalwin form .data,   .modalwin form .info,   .modalwin form .type,   .modalwin form .design,   .modalwin form .redevelopment,   .modalwin form .mono,   .modalwin form .sant,   .modalwin form .floor,   .modalwin form .drywall,   .modalwin form .heating,   .modalwin form .door_meg,   .modalwin form .warming,   .modalwin form .kond {
+    height: 100px;
+  }
+  
+    .modalwin form .dem,   .modalwin form .electro,   .modalwin form .alignment_wall,   .modalwin form .alignment_ceiling,   .modalwin form .windows,   .modalwin form .gidro,   .modalwin form .sound {
+    height: 150px;
+  }
+  
+    .modalwin form .radiator {
+    height: 180px;
+  }
+  
+    .modalwin form .design,   .modalwin form .area,   .modalwin form .wall,   .modalwin form .gas,   .modalwin form .door,   .modalwin form .warm_floor,   .modalwin form .total_budget,   .modalwin form .works_budget,   .modalwin form .black_works_budget,   .modalwin form .white_works_budget,   .modalwin form .furniture_budget {
+    height: 70px;
+  }
+  
+    .modalwin form label {
+    float: left;
+    display: block;
+    width: 20%;
+    height: 100%;
+    padding: 5px;
+    font-weight: bold;
+    border: 1px solid #456c57;
+  }
+  
+    .modalwin form .lab {
+    cursor: pointer;
+  }
+  
+    .modalwin form .lab:hover {
+    color: white;
+    background: #456c57;
+  }
+  
+    .modalwin form .point,   .modalwin form .point_right {
+    width: 50%;
+    float: left;
+    position: relative;
+    left: 35px;
+  }
+  
+    .modalwin form .point input[type=checkbox],   .modalwin form .point_right input[type=checkbox] {
+    display: none;
+  }
+  
+    .modalwin form .point label,   .modalwin form .point_right label {
+    width: 40%;
+  }
+  
+    .modalwin form .point label::after,   .modalwin form .point_right label::after {
+    content: "";
+    position: absolute;
+    left: 190px;
+    background: white;
+    width: 36px;
+    height: 36px;
+    top: 0;
+    border: 1px solid #456c57;
+  }
+  
+    .modalwin form .point input[type=checkbox]:checked + label:after,   .modalwin form .point input[type=checkbox]:hover + label:after,   .modalwin form .point_right input[type=checkbox]:checked + label:after,   .modalwin form .point_right input[type=checkbox]:hover + label:after {
+    content: "\2713";
+    width: 36px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    font-size: 15px;
+    color: #f3f3f3;
+    text-align: center;
+    line-height: 30px;
+    background: #456c57;
+  }
+  
+    .modalwin form .point input[type=number],   .modalwin form .point_right input[type=number] {
+    height: 36px;
+    position: relative;
+    left: 33px;
+    border: 1px solid #456c57;
+  }
+  
+    .modalwin form .point input[type=number]::-webkit-input-placeholder,   .modalwin form .point_right input[type=number]::-webkit-input-placeholder {
+    padding: 5px;
+  }
+  
+    .modalwin form .point input[type=number]:-ms-input-placeholder,   .modalwin form .point_right input[type=number]:-ms-input-placeholder {
+    padding: 5px;
+  }
+  
+    .modalwin form .point input[type=number]::-ms-input-placeholder,   .modalwin form .point_right input[type=number]::-ms-input-placeholder {
+    padding: 5px;
+  }
+  
+    .modalwin form .point input[type=number]::placeholder,   .modalwin form .point_right input[type=number]::placeholder {
+    padding: 5px;
+  }
+  
+    .modalwin form input[type=submit] {
+    color: white;
+    background: #456c57;
+    height: 36px;
+    border: 1px solid #456c57;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 405px;
+  }
+  
+    .modalwin form input[type=submit]:hover {
+    -webkit-box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+  }
+  
+    .modalwin form textarea {
+    float: right;
+    height: 100%;
+    width: 80%;
+    border: 1px solid #456c57;
+    resize: none;
+  }
+  
+    .modalwin form textarea::-webkit-input-placeholder {
+    padding: 0 5px;
+  }
+  
+    .modalwin form textarea:-ms-input-placeholder {
+    padding: 0 5px;
+  }
+  
+    .modalwin form textarea::-ms-input-placeholder {
+    padding: 0 5px;
+  }
+  
+    .modalwin form textarea::placeholder {
+    padding: 0 5px;
+  }
+  
+    .modalwin form textarea:focus {
+    outline: none;
+  }
+  
+    .modalwin form .questions {
+    width: 100%;
+    height: 100px;
+  }
